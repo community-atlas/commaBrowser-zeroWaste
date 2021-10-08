@@ -16,6 +16,7 @@ var CONFIG = {
         "startView": "map",
         "showDetail": true,
         "lang": "pt",
+        "futureEventsOnly":true,
         "logos" : [
             {
                src: "commaBrowser/browser/images/logo-erasmusleft_en.jpg",
