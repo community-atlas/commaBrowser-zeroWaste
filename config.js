@@ -19,10 +19,51 @@ var CONFIG = {
         "futureEventsOnly":true,
         "logos" : [
             {
-               src: "commaBrowser/browser/images/logo-erasmusleft_en.jpg",
-               alt: "Erusmus",
-               href: null,
+               src: "images/zerowastelab.png",
+               alt: "Zero Waste Lab",
+               href: "https://zerowastelab.pt",
             },
+            {
+                src: "images/erasmus.jpg",
+                alt: "Erasmus",
+                href: "",
+             },
+             {
+                src: "images/comensi.png",
+                alt: "Comensi Community Altas",
+                href: "https://community-atlas.net",
+             },/**
+             {
+                src: "images/4c.png",
+                alt: "4change",
+                href: "",
+             },   **/          
+             {
+                src: "images/bipzip.png",
+                alt: "CML BIPZIP",
+                href: "https://bipzip.cm-lisboa.pt/",
+             },
+             {
+                src: "images/fgs.png",
+                alt: "FGS",
+                href: "https://fgs.org.pt/pt/",
+             },
+             {
+                src: "images/mef.jpg",
+                alt: "MEF",
+                href: "www.mef.pt",
+             },
+             {
+                src: "images/saovicente.png",
+                alt: "JF São Vicente",
+                href: "http://jf-saovicente.pt/",
+             },
+             {
+                src: "images/zwy.jpeg",
+                alt: "Zero Waste Youth",
+                href: "https://www.instagram.com/zerowasteyouthportugal/",
+             },
+
         
         ]
     }
