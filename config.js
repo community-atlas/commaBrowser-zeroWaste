@@ -1,7 +1,7 @@
 /**
  * 
  * 
- * 
+ * mapbox://styles/greenman23/ckwc5n03f7vk415p1mgmon6o4
  */
 
 
@@ -12,7 +12,7 @@ var CONFIG = {
         "editorContact": "mailto:test@example.com",
         "commaJSONUrl": "https://comensi.github.io/atlases/zwlpt-DETxemFzyY.geojson",
         "mapBoxToken": "pk.eyJ1IjoiZ3JlZW5tYW4yMyIsImEiOiJjazBrMmMwMG8wYmppM2N0azdqcnZuZzVjIn0.jpODNTgb9TIxZ6yhZKnTvg",
-        "mapId": "mapbox/streets-v11",
+        "mapId": "greenman23/ckwc5n03f7vk415p1mgmon6o4",
         "startView": "map",
         "showDetail": true,
         "lang": "pt",
