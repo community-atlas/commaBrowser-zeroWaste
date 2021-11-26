@@ -85,6 +85,11 @@
     <!-- Fontawesome-->
     <script src="https://kit.fontawesome.com/4e9471cd4c.js" crossorigin="anonymous"></script>
 
+    <!-- Showdown-->
+   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+
+
     <!-- Fontello icons -->
     <!-- Custom icons can be added to markers-->
     <link type="text/css" rel="stylesheet" href="commaBrowser/icons/css/commabrowser-default.css" />
@@ -280,7 +285,8 @@
     <script type="text/javascript" src="commaBrowser/browser/js/materialize.min.js"></script>
     <script type="text/javascript">
         $(document).ready(function () {
-            $("#sidedrawer-logo").click(commaShowHome);
+            $("#sidedrawer-logo").click(commaShowHome);            
+            markdownParser = marked;
         });
     </script>
   </body>
