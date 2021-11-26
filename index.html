@@ -99,12 +99,12 @@
 
     <div id="sidedrawer" class="sidenav sidenav-fixed noautoinit z-depth-0">
         <!-- Side drawer content goes here -->
-        <div id="sidedrawer-intro">
-            <a href="https://zerowastelab.pt/"><img id="logo" class="logo" src="images/LisboaLixoZero.png"
-                    alt="LisboaLixoZero"></a>
+        <div id="sidedrawer-logo">
+            <img id="logo" class="logo" src="images/LisboaLixoZero.png"
+                    alt="LisboaLixoZero">
 
         </div>
-        <!--<h2 id="sidedrawer-title" class="hide-on-med-and-down" style="cursor:pointer">Community Atlas</h2>-->
+        <!--<h2  class="hide-on-med-and-down" style="cursor:pointer">Community Atlas</h2>-->
         <div id="section-view" class="hide-on-large-only">
             <div class="collection">
                 <a id="sidenav-menu-map" class="collection-item" data-ref="view" data-view="map">
@@ -278,7 +278,11 @@
     <div id="tests"></div>
     <script src="commaBrowser/browser/js/comma.js"></script>
     <script type="text/javascript" src="commaBrowser/browser/js/materialize.min.js"></script>
-    <!--<script src="commaBrowser/browser/tests/test.js"></script>-->
-</body>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#sidedrawer-logo").click(commaShowHome);
+        });
+    </script>
+  </body>
 
 </html>
