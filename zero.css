@@ -1,3 +1,7 @@
+body, #sidedrawer {
+    background-image: none;
+  }
+
 #controls-category .chip {
         color: inherit;
 }
