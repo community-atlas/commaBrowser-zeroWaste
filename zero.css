@@ -4,6 +4,13 @@
 .card-size-small .card.small {
     height: 200px;
 }
+.showDetail  #highlight-summary .card-image {
+    width: 60%;
+    padding: 0 0 0 20px;
+    max-height: 512px;
+    overflow: hidden;
+    margin: auto;
+}
 
 #footer-logos {
   width:70%;
