@@ -28,68 +28,68 @@ body, #sidedrawer {
 
 .mapMarker .category-0, .card.category-0 .card-image {
     background-color: #e30613;
-    color:#000;
+    color:#000 !important;
   }
 
 .mapMarker .category-1, .card.category-1 .card-image, .chip.category-1,path.leaflet-interactive.category-1  {
     background-color: #e84e0f;
-    color:#000;
+    color:#000 !important;
 }
 
 .mapMarker .category-2, .card.category-2 .card-image, .chip.category-2,path.leaflet-interactive.category-2  {
     background-color: #f18700;
-    color:#000;
+    color:#000 !important;
     
 }
 
 .mapMarker .category-3, .card.category-3 .card-image, .chip.category-3,path.leaflet-interactive.category-3  {
     background-color: #fbba00;
-    color:#000;
+    color:#000 !important;
   
 }
 
 .mapMarker .category-4,.card.category-4 .card-image, .chip.category-4,path.leaflet-interactive.category-4  {
     background-color: #ffed00;
-    color:#000;
+    color:#000 !important;
 }
 
 .mapMarker .category-5,.card.category-5 .card-image, .chip.category-5 ,path.leaflet-interactive.category-5 {
     background-color:#d3d800;
-    color:#000;
+    color:#000 !important;
 }
 
 .mapMarker .category-6, .card.category-6 .card-image, .chip.category-6, path.leaflet-interactive.category-6  {
     background-color:#8cc63d;
-    color:#000;
+    color:#000 !important; 
 }
 
 .mapMarker .category-7, .card.category-7 .card-image, .chip.category-7, path.leaflet-interactive.category-7  {
     background-color:#009640;
-    color:#fff;
+    color:#fff !important;
 
 }
 
 .mapMarker .category-8, .card.category-8 .card-image, .chip.category-8, path.leaflet-interactive.category-8  {
     background-color:#00a99d;
-    color:#fff;
+    color:#fff !important;
 }
 
 .mapMarker .category-9, .card.category-9 .card-image, .chip.category-9, path.leaflet-interactive.category-9  {
     background-color:#0071bc;
-    color:#fff;  
+    color:#fff !important; 
 }
 
 .mapMarker .category-10, .card.category-10 .card-image, .chip.category-10, path.leaflet-interactive.category-10  {
     background-color:#2e3192;
-    color:#fff;
+    color:#fff !important;
 }
 
 .mapMarker .category-11, .card.category-11 .card-image, .chip.category-11, path.leaflet-interactive.category-11  {
     background-color:#662d91;
-    color:#fff;
+    color:#fff !important;
 }
 .mapMarker .category-12, .card.category-12 .card-image, .chip.category-12, path.leaflet-interactive.category-12  {
     background-color:#ed1e79;
-    color:#fff;
+    color:#fff !important;
 }
 
