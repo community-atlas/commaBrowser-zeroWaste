@@ -2,6 +2,7 @@
  * 
  * 
  * mapbox://styles/greenman23/ckwc5n03f7vk415p1mgmon6o4
+ * https://api.mapbox.com/styles/v1/greenman23/ckwc5re88208c15lcpxibdnqr/wmts?access_token=pk.eyJ1IjoiZ3JlZW5tYW4yMyIsImEiOiJjazBrMmI1enMwZmkwM2dsaWg3emJnODg1In0.kD8yI6unRQOrVzNY-07-tg
  */
 
 
@@ -12,7 +13,7 @@ var CONFIG = {
         "editorContact": "mailto:test@example.com",
         "commaJSONUrl": "https://comensi.github.io/atlases/zwlpt-DETxemFzyY.geojson",
         "mapBoxToken": "pk.eyJ1IjoiZ3JlZW5tYW4yMyIsImEiOiJjazBrMmMwMG8wYmppM2N0azdqcnZuZzVjIn0.jpODNTgb9TIxZ6yhZKnTvg",
-        "mapId": "greenman23/ckwc5n03f7vk415p1mgmon6o4",
+        "mapId": "greenman23/ckwc5re88208c15lcpxibdnqr",
         "startView": "map",
         "showDetail": true,
         "lang": "pt",
