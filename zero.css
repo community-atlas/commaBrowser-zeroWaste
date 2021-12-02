@@ -2,6 +2,10 @@ body, #sidedrawer {
     background-image: none;
   }
 
+nav #nav-menu {
+    width: 900px;
+}
+
 #controls-category .chip {
         color: inherit;
 }
