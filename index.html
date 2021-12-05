@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="pt">
 <head>
     <title>Mapa Lisboa Lixo Zero</title>
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -20,6 +19,23 @@
 
     <!-- initialise the Comma Browser -->
     <script src="config.js"></script>
+    <script lang="javascript">
+        var gtag_script = document.createElement('script');
+        gtag_script.setAttribute('src', `https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`);
+        gtag_script.async = 'async';
+        document.head.appendChild(gtag_script);
+    </script>
+
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', GA_MEASUREMENT_ID);
+    </script>
 
     <link rel="shortcut icon" href="images/LisboaLixoZero.ico" />
     <!-- The leaflet map source -->
