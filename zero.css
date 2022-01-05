@@ -30,7 +30,7 @@ nav #nav-menu {
 }
 
 
-.mapMarker .category-0, .card.category-0 .card-image {
+.mapMarker .category-0, .card.category-0 .card-image, .chip.category-0,path.leaflet-interactive.category-0 {
     background-color: #e30613;
     color:#000 !important;
   }
