@@ -20,6 +20,10 @@ nav #nav-menu {
     margin: auto;
 }
 
+.sidenav {
+    padding-bottom: 20px;
+}
+
 #footer-logos {
   width:70%;
   padding:0 20px;
@@ -28,6 +32,12 @@ nav #nav-menu {
 #project-logo {
     float:right;
 }
+.mapMarker span {
+    box-shadow: 2px -3px 3px grey;
+    -moz-box-shadow: 2px -3px 3px grey;
+    -webkit-box-shadow: 2px -3px 3px grey;
+}
+
 
 
 .mapMarker .category-0, .card.category-0 .card-image, .chip.category-0,path.leaflet-interactive.category-0 {
