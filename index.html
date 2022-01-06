@@ -101,7 +101,17 @@
 </head>
 
 <body class="viewMap card-size-small">
-
+    <!--<div class="fixed-action-btn">
+        <a class="btn-floating btn-large red">
+          <i class="large material-icons">visibility</i>
+        </a>
+        <ul>
+          <li><a class="btn-floating red" data-ref="view" data-view="map"><i class="material-icons">map</i></a></li>
+          <li><a class="btn-floating yellow darken-1" data-ref="view" data-view="cards"><i class="material-icons">collections</i></a></li>
+          <li><a class="btn-floating green" href="https://docs.google.com/forms/d/e/1FAIpQLSf1RiAdoaLpf3JDMw7I7dmis63Alx9y-wTbeKj6ylo1u6OCcg/viewform"
+            target="form"><i class="material-icons">lightbulb</i></a></li>          
+        </ul>
+      </div> -->
     <div id="sidedrawer" class="sidenav sidenav-fixed noautoinit z-depth-2">
         <!-- Side drawer content goes here -->
         <div id="sidedrawer-logo">
@@ -110,7 +120,7 @@
 
         </div>
         <!--<h2  class="hide-on-med-and-down" style="cursor:pointer">Community Atlas</h2>-->
-        <div id="section-view" class="hide-on-large-only">
+        <div id="section-view" class="">
             <div class="collection">
                 <a id="sidenav-menu-map" class="collection-item" data-ref="view" data-view="map">
                     <h4><i class="material-icons">map</i>
@@ -149,7 +159,7 @@
             </ul>
         </div>
     </div>
-    <header id="header" class="navbar-fixed z-depth-0">
+    <header id="header" class="navbar-fixed z-depth-0 hide-on-large-only">
         <nav class="">
             <div class="nav-wrapper">
                 <a href="#" data-target="sidedrawer" class="sidenav-trigger"><i class="material-icons">menu</i></a>
@@ -231,6 +241,7 @@
 
     </div>
 
+    
     <div id="config" class="modal top-sheet">
         <!-- Modal Trigger -->
         <div class="modal-content">
@@ -291,6 +302,7 @@
         $(document).ready(function () {
             $("#sidedrawer-logo").click(commaShowHome);            
             markdownParser = marked;
+           // $('.fixed-action-btn').floatingActionButton({direction: 'left'});
         });
     </script>
   </body>
