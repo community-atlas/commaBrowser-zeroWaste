@@ -105,6 +105,10 @@ nav #nav-menu {
         top: 15px;
         left:10px;        
     }
+    .viewMap #map-wrapper, .viewTimeline #timeline-wrapper, .viewCards #cards-wrapper {
+        padding-top: 80px;
+    }
+
 }
 
 
@@ -182,6 +186,3 @@ nav #nav-menu {
     margin-right: 20px;
 }
 
-.viewMap #map-wrapper, .viewTimeline #timeline-wrapper, .viewCards #cards-wrapper {
-    padding-top: 50px;
-}
