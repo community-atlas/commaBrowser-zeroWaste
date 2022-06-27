@@ -63,7 +63,8 @@ nav #nav-menu {
 }
 
 #settings-icon {      
-  right: 5px;  
+  left: 15px; 
+  position: relative;
 }
 
 .viewMap.showDetail #highlighter-wrapper, .viewCards.showDetail #highlighter-wrapper {
@@ -84,6 +85,11 @@ nav #nav-menu {
         right: auto;
     }
 
+}
+
+#cards-wrapper #card-size-controls {
+    float: right;
+    margin-right: 20px;
 }
 
 
@@ -179,10 +185,5 @@ nav #nav-menu {
 .mapMarker .category-12, .card.category-12 .card-image, .chip.category-12, path.leaflet-interactive.category-12  {
     background-color:#ed1e79;
     color:#fff !important;
-}
-
-#cards-wrapper #card-size-controls {
-    float: right;
-    margin-right: 20px;
 }
 
