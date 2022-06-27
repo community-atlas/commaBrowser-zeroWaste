@@ -105,7 +105,7 @@ nav #nav-menu {
         top: 15px;
         left:10px;        
     }
-    .viewMap #map-wrapper, .viewTimeline #timeline-wrapper, .viewCards #cards-wrapper {
+    .viewCards #cards-wrapper {
         padding-top: 80px;
     }
 
