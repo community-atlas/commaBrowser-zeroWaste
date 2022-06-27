@@ -6,6 +6,11 @@ nav #nav-menu {
     width: 900px;
 }
 
+#content-wrapper {
+    top:5px;
+    height: calc(100% - 70px)
+}
+
 #controls-category .chip {
         color: inherit;
 }
@@ -20,6 +25,10 @@ nav #nav-menu {
     margin: auto;
 }
 
+
+
+.viewMap.showDetail #highlighter-wrapper, .viewCards.showDetail #highlighter-wrapper
+
 .sidenav {
     padding-bottom: 20px;
 }
@@ -31,12 +40,73 @@ nav #nav-menu {
 
 #project-logo {
     float:right;
+    margin-right: 200px;
 }
 .mapMarker span {
     box-shadow: 2px -3px 3px grey;
     -moz-box-shadow: 2px -3px 3px grey;
     -webkit-box-shadow: 2px -3px 3px grey;
 }
+
+#filterSelector {
+    z-index: 500;
+    position:fixed;
+    top: 15px;
+    left: 75px;
+}
+
+#viewSelector .fixed-action-btn {
+    top: 15px;
+    left:320px;
+    bottom: auto;
+    right: auto;
+}
+
+#settings-icon {      
+  right: 5px;  
+}
+
+.viewMap.showDetail #highlighter-wrapper, .viewCards.showDetail #highlighter-wrapper {
+    bottom: 70px;
+}
+@media only screen and (max-width: 600px){
+    
+    .viewMap.showDetail #highlighter-wrapper, .viewCards.showDetail #highlighter-wrapper {
+        width: 100%;
+        height: calc(100% - 80px);
+        bottom: 0px;
+    }
+
+    #viewSelector .fixed-action-btn {
+        top: 15px;
+        left:10px;
+        bottom: auto;
+        right: auto;
+    }
+
+}
+
+
+
+#highlight-summary {
+    border-bottom: solid 1px#ccc;
+}
+.showDetail #highlight-detail {
+    height: calc(100% - 260px);
+    overflow: auto;
+}
+
+@media only screen and (max-width: 992px){
+    #content-wrapper {
+        top: 0px;
+        height: 100%;
+    }
+    #viewSelector .fixed-action-btn {
+        top: 15px;
+        left:10px;        
+    }
+}
+
 
 
 
@@ -107,3 +177,11 @@ nav #nav-menu {
     color:#fff !important;
 }
 
+#cards-wrapper #card-size-controls {
+    float: right;
+    margin-right: 20px;
+}
+
+.viewMap #map-wrapper, .viewTimeline #timeline-wrapper, .viewCards #cards-wrapper {
+    padding-top: 50px;
+}
